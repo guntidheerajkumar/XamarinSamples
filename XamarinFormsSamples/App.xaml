@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application
+	x:Class="XamarinFormsSamples.App"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+	<Application.Resources>
+		<ResourceDictionary>
+			<Style
+				x:Key="LabelStyle"
+				TargetType="Label">
+				<Setter
+					Property="Label.FontFamily">
+					<Setter.Value>
+						<OnPlatform
+							x:TypeArguments="x:String">
+							<OnPlatform.Android>Billy Ohio.ttf#Billy Ohio</OnPlatform.Android>
+							<OnPlatform.iOS>Billy Ohio</OnPlatform.iOS>
+						</OnPlatform>
+					</Setter.Value>
+				</Setter>
+			</Style>
+		</ResourceDictionary>
+	</Application.Resources>
+</Application>
