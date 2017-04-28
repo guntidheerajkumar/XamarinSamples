@@ -111,6 +111,9 @@
     <Reference Include="SignaturePad.Forms.Droid">
       <HintPath>..\packages\Xamarin.Controls.SignaturePad.Forms.1.5.1\lib\MonoAndroid\SignaturePad.Forms.Droid.dll</HintPath>
     </Reference>
+    <Reference Include="AndHUD">
+      <HintPath>..\packages\AndHUD.1.2.0\lib\MonoAndroid\AndHUD.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XamarinFormsSamples\XamarinFormsSamples.csproj">
@@ -122,6 +125,7 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="LoadingService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

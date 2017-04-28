@@ -7,8 +7,8 @@ namespace XamarinFormsSamples
 		public App()
 		{
 			InitializeComponent();
-
-			MainPage = new SignatureSample();
+			DependencyService.Register<ILoadingService>();
+			MainPage = new NavigationPage(new LoadingPage());
 		}
 
 		protected override void OnStart()

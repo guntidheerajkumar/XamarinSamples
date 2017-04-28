@@ -35,6 +35,9 @@
     <EmbeddedResource Include="SignatureSample.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoadingPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -50,6 +53,11 @@
     <Compile Include="SignatureSample.xaml.cs">
       <DependentUpon>SignatureSample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ILoadingService.cs" />
+    <Compile Include="LoadingPage.xaml.cs">
+      <DependentUpon>LoadingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BasePage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SignaturePad.Forms">
