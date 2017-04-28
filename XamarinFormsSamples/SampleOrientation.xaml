@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="XamarinFormsSamples.SampleOrientation"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="85*" />
+                <ColumnDefinition Width="15*" />
+            </Grid.ColumnDefinitions>
+            <StackLayout Grid.Column="0" />
+            <BoxView Grid.Row="0"
+                     Grid.Column="1"
+                     HorizontalOptions="FillAndExpand"
+                     VerticalOptions="FillAndExpand"
+                     BackgroundColor="#EE7F00" />
+            <Button Grid.Row="0"
+                    Grid.Column="1"
+                    HeightRequest="100"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="StartAndExpand"
+                    Image="button_cancel.png"
+                    Rotation="90" />
+            <Button Grid.Row="0"
+                    Grid.Column="1"
+                    HeightRequest="100"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="End"
+                    Image="button_done.png"
+                    Rotation="90" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

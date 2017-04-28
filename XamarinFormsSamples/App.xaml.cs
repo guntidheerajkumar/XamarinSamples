@@ -8,7 +8,7 @@ namespace XamarinFormsSamples
 		{
 			InitializeComponent();
 
-			MainPage = new XamarinFormsSamplesPage();
+			MainPage = new SignatureSample();
 		}
 
 		protected override void OnStart()

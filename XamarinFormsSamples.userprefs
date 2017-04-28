@@ -1,16 +1,15 @@
-﻿<Properties StartupConfiguration="{7ED86FAE-2755-4E8B-A5A9-1F15B9CADDD2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinFormsSamples/App.xaml">
+﻿<Properties StartupConfiguration="{7ED86FAE-2755-4E8B-A5A9-1F15B9CADDD2}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinSamples Status">
     <Files>
-      <File FileName="XamarinFormsSamples/XamarinFormsSamplesPage.xaml" Line="8" Column="45" />
-      <File FileName="XamarinFormsSamples/App.xaml" Line="24" Column="15" />
+      <File FileName="XamarinSamples Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.XamarinFormsSamples.Droid PreferredExecutionTarget="Android.emulator-5554" />
+  <MonoDevelop.Ide.ItemProperties.XamarinFormsSamples.Droid PreferredExecutionTarget="Android.And" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.XamarinFormsSamples.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.ADCADF44-AD9E-45C2-9BEB-A1B086CC3B08" />
+  <MonoDevelop.Ide.ItemProperties.XamarinFormsSamples.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F07AD845-B459-4822-970B-884E6DFCEDF8" />
   <MultiItemStartupConfigurations />
 </Properties>
